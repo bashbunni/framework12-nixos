@@ -141,11 +141,6 @@
 #     "pinctrl_tigerlake"; Core 3 series seems to work fine without this.
    ];
 
-  # Framework 12 touch module
-  boot.initrd.systemd.enable = true;
-  boot.initrd.unl0kr.enable = true;
-  hardware.sensor.iio.enable = true;
-
   # Docker
   # virtualisation.docker.enable = true;
 
